@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.header header {
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    border-bottom-right-radius: 40px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.header header h1 {
+    font-family: 'akronim', cursive;
+    font-size: 4em;
+    margin-bottom: 10px;
+
+    /* text gradient */
+    background: -webkit-linear-gradient(rgb(148, 57, 57), rgb(72, 197, 99));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header header p {
+    font-size: 1rem;
+}
+
+/* Showing message styling */
+.showing {
+    margin: 40px 0;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+}
+/* Showing message end */
+
+/* Search Form Styling */
+.search {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.search form {
+
+}
+
+.search #searchTerm {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    border: 1px solid rgb(209, 209, 209);
+    border: 1px solid rgba(0,0,0,0.1);
+    font-style: italic;
+    font-size: 0.9rem;
+    max-width: 300px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+
+#searchTerm:focus {
+    outline: none;
+}
+
+.search #submitBtn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-style: italic;
+    border-radius: 50px;
+    border: 2px solid grey;
+    background: grey;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+#submitBtn:focus {
+    outline: none;
+}
+
+#submitBtn:active {
+    border-style: inset;
+    border-width: 2px;
+    border-color: white;
+}
+/* Search Form Styling End */
+
+/* Gallery Styling */
+.gallery {
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    text-align: center;
+}
+
+.gallery img {
+    width: 380px;
+    height: 250px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+/* Gallery Styling End */
+
+/* Pagination */
+.pagination {
+    text-align: center;
+    padding: 1rem;
+    display: none;
+}
+
+#prev, #next {
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    font-size: 2rem;
+    background: grey;
+    color: white;
+    border: 2px solid grey;
+}
+#prev:focus, #next:focus {
+    outline: none;
+}
+
+#prev:active, #next:active {
+    border: inset;
+}
+
+
+/* Pagination End */
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 2rem;
+}
+/* Footer end */
+
+
+/* Modal Styling */
+.modal {
+    width: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    text-align: center;
+    padding: 3rem 0;
+    background: black;
+    background: rgba(0, 0, 0, 0.8);
+    transition: 0.5s ease-in-out;
+}
+.modal span {
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    cursor: pointer;
+}
+
+.modal img {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 20px 10px 10px 10px;
+}
+/* MOdal styling end */

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unsplash API | Image Gallery</title>
+
+    <!-- Montserrat and Akronim font from google -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Akronim&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <header>
+                <h1>
+                    <a href="index.html">Image Gallery</a>
+                </h1>
+                <p>
+                    Search millions of images from Unsplash.com
+                </p>
+            </header>
+            <div class="search">
+                <form action="#">
+                    <input type="text" id="searchTerm" placeholder="Search millions fo photos">
+                    <input type="submit" id="submitBtn" value="Search">
+                </form>
+            </div>
+        </div>
+        <div class="showing">
+            <p>
+                
+            </p>
+        </div>
+
+        <div class="gallery">
+
+        </div>
+        <div class="pagination">
+            <button id="prev" title="Previous Page">&lt;</button>
+            <button id="next" title="Next Page">&gt;</button>
+        </div>
+        <div class="footer">
+            All rights reserved by Unsplash and respective authors.
+        </div>
+
+        <div class="modal">
+            <span>&times;</span>
+            <img src="#">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
