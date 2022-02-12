@@ -112,6 +112,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
+    object-fit: cover;
 }
 /* Gallery Styling End */
 
